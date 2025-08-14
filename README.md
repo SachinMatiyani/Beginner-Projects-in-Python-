@@ -31,29 +31,72 @@ The snake eats food to grow longer, and the game ends if it hits the wall.
 2. Install Pygame:
 ```bash
 pip install pygame
+```
+3. Run the game:
+```bash
+python snake_game.py
+```
 
+---
 
-## 📌 Project No. 2 – Currency Converter 💱
+## 📌 Project No. 2 – Face Detection System 👤
 
 **Description:**  
-A simple Currency Converter made using Python, Tkinter, and ExchangeRate-API.  
-It allows you to convert between any world currency with real-time exchange rates fetched directly from the internet.
+A real-time Face Detection system built using Python and OpenCV.  
+The application uses your webcam to detect human faces and draws green rectangles around detected faces in real-time.
 
 **Features:**
-- Supports all world currencies (auto-fetched from API)
-- Live exchange rates from [ExchangeRate-API](https://www.exchangerate-api.com/)
-- User-friendly GUI using Tkinter
-- Error handling for invalid inputs and network issues
-- Instant conversion display
+- Real-time face detection using webcam
+- Multiple face detection capability
+- Green bounding boxes around detected faces
+- Smooth video processing
+- Easy exit functionality
 
-**How to Use:**
-1. Select **From Currency** (base currency)
-2. Select **To Currency** (target currency)
-3. Enter the amount you want to convert
-4. Click **Convert** button to see the result
+**Technology Used:**
+- **OpenCV** - Computer Vision library
+- **Haar Cascade Classifier** - Pre-trained face detection model
+- **Python** - Programming language
+
+**Controls:**
+| Key | Action |
+|-----|--------|
+| **A** | Exit/Quit the application |
 
 **How to Run:**
 1. Install Python (>= 3.6)
-2. Install required library:
+2. Install OpenCV:
 ```bash
-pip install requests
+pip install opencv-python
+```
+3. Make sure your webcam is connected and working
+4. Run the Python script:
+```bash
+python face_detection.py
+```
+
+**Requirements:**
+- Python 3.6+
+- OpenCV library
+- Working webcam/camera
+- Haar Cascade XML file (included with OpenCV)
+
+**How it Works:**
+1. Captures video from your default camera (index 0)
+2. Converts each frame to grayscale for better detection
+3. Uses Haar Cascade classifier to detect faces
+4. Draws green rectangles around detected faces
+5. Displays the live video feed with face detection
+6. Press 'A' key to exit the application
+
+**Note:**
+Make sure to allow camera permissions when prompted by your system.
+
+---
+
+## 🚀 Upcoming Projects
+- Text-to-Speech Converter
+- Weather App
+- Password Generator
+- And many more...
+
+**Keep Learning, Keep Coding!** 💻✨
