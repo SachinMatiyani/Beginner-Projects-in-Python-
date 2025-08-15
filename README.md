@@ -93,10 +93,63 @@ Make sure to allow camera permissions when prompted by your system.
 
 ---
 
-## 🚀 Upcoming Projects
-- Text-to-Speech Converter
-- Weather App
-- Password Generator
-- And many more...
+## 📌 Project No. 3 – Tkinter Calculator 🧮
+
+**Description:**  
+A fully functional GUI Calculator built using Python's Tkinter library.  
+The calculator can perform basic arithmetic operations with a user-friendly graphical interface.
+
+**Features:**
+- Clean and intuitive GUI design
+- Basic arithmetic operations (+, -, *, /)
+- Decimal point support
+- Error handling for invalid expressions
+- Clear function to reset calculator
+- Responsive button layout
+
+**Technology Used:**
+- **Tkinter** - Python's built-in GUI library
+- **Python** - Programming language
+
+**Calculator Layout:**
+| Button | Function |
+|--------|----------|
+| **0-9** | Number input |
+| **+** | Addition |
+| **-** | Subtraction |
+| **\*** | Multiplication |
+| **/** | Division |
+| **.** | Decimal point |
+| **=** | Calculate result |
+| **C** | Clear display |
+
+**How to Run:**
+1. Install Python (>= 3.6) - Tkinter comes pre-installed with Python
+2. Run the calculator:
+```bash
+python calculator.py
+```
+
+**Requirements:**
+- Python 3.6+ (with Tkinter - usually included by default)
+- No additional libraries needed
+
+**How it Works:**
+1. GUI window opens with calculator interface (300x350 pixels)
+2. Click number buttons to input numbers
+3. Click operation buttons (+, -, *, /) for calculations
+4. Press '=' button to get the result
+5. Use 'C' button to clear the display
+6. Error handling shows "Error" for invalid expressions
+
+**Features in Detail:**
+- **Display Screen**: Shows current input and results
+- **Number Pad**: 0-9 digits for input
+- **Operations**: Addition, subtraction, multiplication, division
+- **Equals Button**: Evaluates the mathematical expression
+- **Clear Button**: Resets the calculator to start fresh
+- **Error Handling**: Displays "Error" for invalid calculations
+
+---
 
 **Keep Learning, Keep Coding!** 💻✨
