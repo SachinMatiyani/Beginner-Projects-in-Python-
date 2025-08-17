@@ -152,4 +152,77 @@ python calculator.py
 
 ---
 
+## 📌 Project No. 4 – Currency Converter 💱
+
+**Description:**  
+A real-time Currency Converter application built using Python's Tkinter and Exchange Rate API.  
+The application fetches live exchange rates and converts between different currencies with an intuitive GUI interface.
+
+**Features:**
+- Real-time currency exchange rates
+- Support for 100+ international currencies
+- User-friendly dropdown menus for currency selection
+- Clean and modern GUI design
+- Error handling for network issues and invalid inputs
+- Live API integration for accurate rates
+- Precise conversion calculations (up to 2 decimal places)
+
+**Technology Used:**
+- **Tkinter** - Python's GUI library
+- **Requests** - HTTP library for API calls
+- **Exchange Rate API** - Real-time currency data
+- **Python** - Programming language
+
+**Supported Currencies:**
+- USD, EUR, GBP, INR, JPY, CAD, AUD, and 100+ more
+- All major world currencies supported
+- Real-time exchange rate updates
+
+**How to Run:**
+1. Install Python (>= 3.6)
+2. Install required libraries:
+```bash
+pip install requests
+```
+3. Make sure you have internet connection
+4. Run the application:
+```bash
+python currency_converter.py
+```
+
+**Requirements:**
+- Python 3.6+
+- Requests library
+- Active internet connection
+- Tkinter (comes pre-installed with Python)
+
+**How it Works:**
+1. Application fetches all available currency codes from Exchange Rate API
+2. User selects base currency from dropdown (default: USD)
+3. User selects target currency from dropdown (default: INR)
+4. User enters the amount to convert
+5. Click "Convert" button to get real-time conversion
+6. Result displays with precise formatting
+7. Error handling for network issues and invalid inputs
+
+**Application Interface:**
+| Component | Function |
+|-----------|----------|
+| **From Currency** | Select source currency (dropdown) |
+| **To Currency** | Select target currency (dropdown) |
+| **Amount** | Enter amount to convert |
+| **Convert Button** | Execute currency conversion |
+| **Result Display** | Shows converted amount |
+
+**Error Handling:**
+- **Network Error**: Shows message if internet connection fails
+- **Invalid Input**: Validates numeric input for amount
+- **API Error**: Handles API failures gracefully
+- **Currency Error**: Validates currency codes
+
+**Note:**
+Make sure you have a stable internet connection as the app fetches live exchange rates from the API.
+
+---
+
 **Keep Learning, Keep Coding!** 💻✨
